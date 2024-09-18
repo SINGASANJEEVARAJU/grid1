@@ -1,0 +1,164 @@
+#parent{
+    display: grid;
+    grid-template-columns: repeat(28,1fr);
+   
+    /* padding: 10px; */
+    text-align: center;
+    /* width: 100% ; */
+
+    gap: 10px;
+}
+   
+.child{
+    background-color: green;
+    color: white;
+    height: 5rem;
+    
+    
+}
+.one{
+    grid-column: 1/13;
+    
+
+
+}
+.two{
+    
+   
+    grid-column: 1/7;
+    
+}
+.three{
+    
+    grid-column: 7/13;
+   
+}
+  
+.four{
+  
+    grid-column:1/5;
+   
+   
+
+}
+.five{
+   
+    grid-column:5/9;
+   
+   
+
+}
+.six{
+   
+    grid-column:9/13;
+    
+}
+.seven{
+    
+    grid-column:1/4;
+   
+}
+.eight{
+    
+    grid-column:4/7;
+    
+}
+.nine{
+   
+    grid-column:7/10;
+}
+.ten{
+    
+    grid-column:10/13;
+    
+}
+.eleven{
+    
+    grid-column:1/3;
+    
+}
+.twelve{
+    
+    grid-column:3/5;
+    
+
+}
+.thirteen{
+    grid-column:5/7;
+
+}
+.fourteen{
+
+    grid-column:7/9;
+
+}
+.fifteen{
+   
+    grid-column:9/11;
+   
+}
+.sixteen{
+    
+    grid-column:11/13;
+    
+}
+.seventeen{
+
+    grid-column:1/2;
+    
+}
+.eighteen{
+   
+    grid-column:2/3;
+
+}
+.nineteen{
+    
+    grid-column:3/4;
+    
+
+}
+.twenty{
+    
+    grid-column:4/5;
+    
+}
+.tone{
+   
+    grid-column:5/6;
+    
+}
+.ttwo{
+   
+    grid-column:6/7;
+   
+}
+.tthree{
+    
+    grid-column:7/8;
+   
+}
+.tfour{
+   
+    grid-column:8/9;
+   
+}
+.tfive{
+   
+    grid-column:9/10;
+    
+}
+.tsix{
+   
+    grid-column:10/11;
+    
+}
+.tseven{
+    
+    grid-column:11/12;
+
+}
+.teight{
+   
+    grid-column:12/13;
+}
